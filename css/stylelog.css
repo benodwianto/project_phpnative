@@ -1,0 +1,559 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3e004d;
+  overflow: hidden;
+  background-image: url(../image/mand.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: relative;
+}
+.container {
+  width: 950px;
+  margin: auto;
+  overflow: hidden;
+}
+.container h1 {
+  margin-top: 60px;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+/* Login Body */
+.login-body {
+  position: fixed;
+  margin-left: 277px;
+  width: 400px;
+  height: 508px;
+  background-color: #2a0138;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0px 13px 33px -10px rgba(0, 0, 0, 0.63);
+}
+.login-body .top-login {
+  background-color: #aa0247;
+  width: 420px;
+  height: 85px;
+  position: absolute;
+}
+/* LINES LINES LINES + Title */
+.top-login .title {
+  font-family: Open Sans;
+  font-size: 25.5px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-top: 24px;
+}
+.line-1 {
+  width: 54px;
+  height: 8px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 16px;
+  left: 45px;
+}
+.line-2 {
+  width: 10px;
+  height: 9px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 16px;
+  left: 33px;
+}
+.line-3 {
+  width: 54px;
+  height: 8px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 16px;
+  left: -23px;
+}
+.line-11 {
+  width: 44px;
+  height: 8px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 37px;
+  left: 30px;
+}
+.line-22 {
+  width: 10px;
+  height: 9px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 37px;
+  left: 18px;
+}
+.line-33 {
+  width: 54px;
+  height: 8px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 37px;
+  left: -37px;
+}
+.line-111 {
+  width: 44px;
+  height: 8px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 60px;
+  left: 41px;
+}
+.line-222 {
+  width: 10px;
+  height: 9px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 40px;
+  left: 30px;
+}
+.line-333 {
+  width: 54px;
+  height: 8px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 20px;
+  top: 60px;
+  left: -26px;
+}
+/* LINES LINES LINES */
+/* Character */
+.login-body .character-circel {
+  position: absolute;
+  background-color: #aa0247;
+  top: 117px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  left: 125px;
+  overflow: hidden;
+}
+.login-body .character-body {
+  position: absolute;
+  background-color: #ff7d4a;
+  top: 71px;
+  width: 72px;
+  height: 72px;
+  left: 31px;
+  border-radius: 25px;
+}
+.login-body .character-body:before {
+  content: "";
+  position: absolute;
+  background-color: #aa0247;
+  top: -7px;
+  width: 30px;
+  height: 30px;
+  left: 48px;
+  border-radius: 12px;
+}
+.login-body .character-body:after {
+  content: "";
+  position: absolute;
+  background-color: #aa0247;
+  top: -7px;
+  width: 30px;
+  height: 30px;
+  left: -6px;
+  border-radius: 12px;
+}
+.login-body .character-body .head {
+  position: absolute;
+  background-color: #ffb03e;
+  top: -51px;
+  width: 56px;
+  height: 56px;
+  left: 8px;
+  border-radius: 22px;
+  z-index: 1;
+}
+.login-body .character-body .head:before {
+  content: "";
+  position: absolute;
+  background-color: #85ffff;
+  top: 18px;
+  width: 9px;
+  height: 7px;
+  left: 36px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.login-body .character-body .head:after {
+  content: "";
+  position: absolute;
+  background-color: #85ffff;
+  top: 18px;
+  width: 9px;
+  height: 7px;
+  left: 13px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.login-body .character-body .hair1 {
+  position: absolute;
+  background-color: #85ffff;
+  width: 8px;
+  height: 27px;
+  left: 32px;
+  border-radius: 8px;
+  z-index: 0;
+  top: -66px;
+}
+.login-body .character-body .hair2 {
+  position: absolute;
+  background-color: #85ffff;
+  width: 8px;
+  height: 27px;
+  left: 36px;
+  border-radius: 8px;
+  z-index: 0;
+  top: -62px;
+  -webkit-transform: rotate(-156deg);
+  transform: rotate(-156deg);
+}
+.character-bacground {
+  position: absolute;
+  background-color: #5f416a;
+  width: 230px;
+  height: 25px;
+  border-radius: 15px;
+  top: 128px;
+  z-index: -1;
+  left: 89px;
+}
+.character-bacground:before {
+  content: "";
+  position: absolute;
+  background-color: #5f416a;
+  width: 44px;
+  height: 21px;
+  top: 22px;
+  left: 15px;
+}
+.character-bacground:after {
+  content: "";
+  position: absolute;
+  background-color: #2a0138;
+  width: 44px;
+  height: 21px;
+  top: 24px;
+  left: -3px;
+  border-radius: 15px;
+}
+.character-bacground2 {
+  position: absolute;
+  background-color: #5f416a;
+  width: 221px;
+  height: 23px;
+  border-radius: 15px;
+  top: 172px;
+  z-index: -1;
+  left: 71px;
+}
+.character-bacground2:before {
+  content: "";
+  position: absolute;
+  background-color: #5f416a;
+  width: 44px;
+  height: 21px;
+  top: 22px;
+  left: 152px;
+}
+.character-bacground2:after {
+  content: "";
+  position: absolute;
+  background-color: #2a0138;
+  width: 44px;
+  height: 21px;
+  top: 22px;
+  left: 189px;
+  border-radius: 11px;
+}
+.character-bacground3 {
+  position: absolute;
+  background-color: #5f416a;
+  width: 108px;
+  height: 23px;
+  border-radius: 15px;
+  top: 213px;
+  z-index: -1;
+  left: 223px;
+}
+.character-circle1 {
+  position: absolute;
+  background-color: #70557a;
+  width: 11px;
+  top: 157px;
+  left: 112px;
+  height: 11px;
+  border-radius: 50%;
+}
+.character-circle1:before {
+  content: "";
+  position: absolute;
+  background-color: #482554;
+  width: 11px;
+  left: -14px;
+  height: 11px;
+  border-radius: 50%;
+}
+.character-circle1:after {
+  content: "";
+  position: absolute;
+  background-color: #401b4c;
+  width: 11px;
+  left: -28px;
+  height: 11px;
+  border-radius: 50%;
+}
+.character-circle2 {
+  position: absolute;
+  background-color: #401b4c;
+  width: 11px;
+  top: 199px;
+  right: 93px;
+  height: 11px;
+  border-radius: 50%;
+}
+.character-circle2:before {
+  content: "";
+  position: absolute;
+  background-color: #482554;
+  width: 11px;
+  left: -14px;
+  height: 11px;
+  border-radius: 50%;
+}
+.character-circle2:after {
+  content: "";
+  position: absolute;
+  background-color: #70557a;
+  width: 11px;
+  left: -28px;
+  height: 11px;
+  border-radius: 50%;
+}
+.login-box {
+  position: absolute;
+  width: 300px;
+  height: 175px;
+  top: 264px;
+  left: 50px;
+}
+.login-box .line1 {
+  position: absolute;
+  width: 260px;
+  height: 1px;
+  top: 41px;
+  background-color: #ff7d4a;
+  left: 20px;
+}
+.login-box .line2 {
+  position: absolute;
+  width: 260px;
+  height: 1px;
+  top: 89px;
+  background-color: #ff7d4a;
+  left: 20px;
+}
+.login-box .morab31 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 85px;
+  background-color: #ffffff;
+  left: 16px;
+  -webkit-transform: rotate(-64deg);
+  transform: rotate(-64deg);
+}
+.login-box .morab32 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 85px;
+  background-color: #ffffff;
+  right: 16px;
+  -webkit-transform: rotate(-64deg);
+  transform: rotate(-64deg);
+}
+.login-box .morab33 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 37px;
+  background-color: #ffffff;
+  right: 16px;
+  -webkit-transform: rotate(-64deg);
+  transform: rotate(-64deg);
+}
+.login-box .morab34 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 37px;
+  background-color: #ffffff;
+  left: 16px;
+  -webkit-transform: rotate(-64deg);
+  transform: rotate(-64deg);
+}
+.login-box input[type="text"] {
+  color: #ffffff;
+  border: none;
+  font-family: Open Sans;
+  font-size: 15px;
+  padding-left: 35px;
+  font-weight: 400;
+  background-color: transparent;
+  margin-top: 13px;
+}
+.login-box input[type="password"] {
+  color: #ffffff;
+  border: none;
+  font-family: Open Sans;
+  font-size: 15px;
+  padding-left: 35px;
+  font-weight: 400;
+  background-color: transparent;
+  margin-top: 24px;
+}
+.login-box .button {
+  font-family: Open sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  background-color: #aa0247;
+  position: absolute;
+  top: 113px;
+  right: 42px;
+  width: 210px;
+  height: 47px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.login-box .button:hover {
+  font-family: Open sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #aa0247;
+  border: none;
+  background-color: #ffffff;
+  position: absolute;
+  top: 113px;
+  right: 42px;
+  width: 210px;
+  height: 47px;
+  border-radius: 25px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.last-info {
+  position: absolute;
+  width: 400px;
+  bottom: 2px;
+}
+.last-info .one {
+  position: absolute;
+  bottom: -45px;
+  color: white;
+  font-family: Open sans;
+  font-size: 14px;
+  left: -37px;
+  width: 119px;
+}
+.last-info .one:after {
+  content: "";
+  position: absolute;
+  width: 1.2px;
+  height: 25px;
+  background-color: white;
+  color: white;
+  font-family: Open sans;
+  font-size: 14px;
+  right: -6px;
+  top: -2px;
+}
+.last-info .two a {
+  position: absolute;
+  bottom: -45px;
+  font-family: Open sans;
+  font-size: 14px;
+  left: 100px;
+  text-decoration: none;
+  color: white;
+}
+.last-info .two a:after {
+  content: "";
+  position: absolute;
+  width: 1.2px;
+  height: 25px;
+  background-color: white;
+  color: white;
+  font-family: Open sans;
+  font-size: 14px;
+  right: -15px;
+  top: -2px;
+}
+.last-info .three a {
+  position: absolute;
+  bottom: -45px;
+  font-family: Open sans;
+  font-size: 14px;
+  left: 224px;
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label {
+  top: 4px;
+  background: #aa0247;
+  height: 13px;
+  width: 13px;
+  border-radius: 30%;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+input[type="checkbox"]:checked + label {
+  top: 4px;
+  background: #ffffff;
+  height: 13px;
+  width: 13px;
+  border-radius: 30%;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+}
+/* End Character */
+/*Rare Down Login */
+.down-login {
+  position: absolute;
+  background-color: #f93854;
+  width: 420px;
+  height: 10px;
+  bottom: 0;
+}
+/*Rare Down Login*/
+/* do not group these rules */
